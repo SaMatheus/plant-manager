@@ -25,7 +25,7 @@ export function Welcome() {
         suas plantas de {'\n'}
         forma fácil
       </Text>
-      <Image style={styles.image} source={wateringImg} />
+      <Image style={styles.image} source={wateringImg} resizeMode="contain" />
       <Text style={styles.subtitle}>
         Não esqueça mais de regar suas plantas. Nós cuidamos de lembrar você
         sempre que precisar.
@@ -33,8 +33,8 @@ export function Welcome() {
 
       <TouchableOpacity style={styles.button} activeOpacity={0.7}>
         <Text style={styles.buttonText}>
-          Avançar
-      </Text>
+          ->
+        </Text>
       </TouchableOpacity>
     </SafeAreaView>
 
