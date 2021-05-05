@@ -19,6 +19,9 @@ import wateringImg from '../assets/watering.png'
 // COLORS
 import colors from '../styles/colors'
 
+// FONTS
+import fonts from '../styles/fonts'
+
 export function Welcome() {
 
   return (
@@ -52,7 +55,9 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     color: colors.heading,
-    marginTop: 38
+    marginTop: 38,
+    fontFamily: fonts.heading,
+    lineHeight: 38
   },
   image: {
     height: Dimensions.get('window').width * .7
